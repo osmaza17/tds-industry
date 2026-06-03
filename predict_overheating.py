@@ -102,16 +102,16 @@ def main():
         5: ['position', 'voltage', 'temperature', 'temperature_diff'] + rolling_feats,
         6: ['position', 'temperature', 'temperature_diff', 'position_diff'] + rolling_feats
     }
-    base_dir = r'C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\kaggle_data_challenge'
-    train_path = os.path.join(base_dir, 'training_data/')
-    test_path = os.path.join(base_dir, 'testing_data/')
+    base_dir = r'C:\Users\oscar\Desktop\TDS INDUSTRY'
+    train_path = os.path.join(base_dir, 'data/training_data/')
+    test_path = os.path.join(base_dir, 'data/testing_data/')
     
     print("Loading and preprocessing training data...")
     train_df = read_all_test_data_from_path(train_path, pre_processing, is_plot=False)
     
     # Load additional data groups
     additional_dfs = []
-    additional_base = r'C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\additional_data'
+    additional_base = r'C:\Users\oscar\Desktop\TDS INDUSTRY\data\additional_data'
     groups = [
         'additional_data_20240524_group_6',
         'additional_training_data_group_1',
@@ -421,6 +421,7 @@ def main():
 
     print("\nGenerating predictions for sample_submission.csv format...")
     sample_sub_path = os.path.join(base_dir, 'sample_submission.csv')
+    os.makedirs(os.path.join(base_dir, 'submissions'), exist_ok=True)
     submission_df = pd.read_csv(sample_sub_path)
     
     # Make a copy to hold our results
@@ -478,9 +479,9 @@ def main():
     if args.exclude_motor is not None:
         print(f"\nExcluding Motor {args.exclude_motor}: Setting its predictions to -1.")
         final_sub[f'data_motor_{args.exclude_motor}_label'] = -1
-        out_path = os.path.join(r'C:\Users\oscar\Desktop\TDS INDUSTRY', f'motor_excluded_{args.exclude_motor}_submission.csv')
+        out_path = os.path.join(base_dir, 'submissions', f'motor_excluded_{args.exclude_motor}_submission.csv')
     else:
-        out_path = r'C:\Users\oscar\Desktop\TDS INDUSTRY\motor_submission.csv'
+        out_path = os.path.join(base_dir, 'submissions', 'motor_submission.csv')
         
     final_sub.to_csv(out_path, index=False)
     print(f"\nSaved final submission to {out_path}")

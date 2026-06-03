@@ -1,4 +1,4 @@
-"""
+﻿"""
 TD9 - data loading and cleaning for the fault-detection data challenge.
 
 Sources (all under ``../TD6/kaggle_data_challenge``):
@@ -30,8 +30,8 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-DATA_ROOT = (HERE / ".." / "TD6" / "kaggle_data_challenge").resolve()
-TD6_PKG = DATA_ROOT  # utility.py lives here
+DATA_ROOT = (HERE / "..").resolve()
+TD6_PKG = DATA_ROOT / "kaggle_data_challenge"  # utility.py lives here
 
 if str(TD6_PKG) not in sys.path:
     sys.path.insert(0, str(TD6_PKG))
@@ -41,9 +41,9 @@ from utility import (  # noqa: E402
     read_all_test_data_from_path,
 )
 
-TRAIN_DIR = str(DATA_ROOT / "training_data") + "/"
-TEST_DIR = str(DATA_ROOT / "testing_data") + "/"
-ADDITIONAL_DIR = DATA_ROOT / "additional_data"
+TRAIN_DIR = str(DATA_ROOT / "data" / "training_data") + "/"
+TEST_DIR = str(DATA_ROOT / "data" / "testing_data") + "/"
+ADDITIONAL_DIR = DATA_ROOT / "data" / "additional_data"
 SAMPLE_SUBMISSION = DATA_ROOT / "sample_submission.csv"
 
 # Quality-filter thresholds.
