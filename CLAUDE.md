@@ -65,8 +65,13 @@ td6.ipynb                             # Benchmarking real dataset Kaggle
 td7.ipynb                             # AAKR implementación propia
 td8.ipynb                             # (más reciente)
 
-predict_overheating_v4.ipynb          # Versiones de la submission
+data_challenge_submission.ipynb       # Notebook de submission actual
 motor_submission*.csv                 # Submissions generadas
+
+error injection_v2.py                 # Probing por motor (padre del harness pruebas/exp_*.py)
+error_injection_code.md               # Spec de la competición + MATLAB de inyección (referencia)
+pruebas/                              # Banco de experimentos (ver pruebas/README.md)
+legacy/                              # Código obsoleto archivado (ver legacy/README.md)
 ```
 
 ---
@@ -256,8 +261,11 @@ El mayor problema es la **calibración de prevalencia**: los modelos entrenados 
 
 **NUNCA hacer submit de un CSV en el que los 6 motores tengan predicciones 0/1.**
 Toda submission DEBE tener **al menos un motor "skipeado"** (su columna entera a `-1`).
-Esto se consigue con el flag `--exclude-motor N` de `error injection_v1.py` / `error injection_v2.py`
+Esto se consigue con el flag `--exclude-motor N` de `error injection_v2.py`
 (hardcodeado por defecto a `--exclude-motor 3`, genera `submissions/motor_excluded_3_submission.csv`).
+El harness actual `pruebas/exp_*.py` acepta el mismo flag `--exclude-motor N`.
+(`error injection_v1.py` y `predict_overheating.py` son legacy/obsoletos; superados por v2 → `exp_*.py`.
+ Archivados en `legacy/` — ver `legacy/README.md`.)
 
 Razón: el truco de probing de abajo SOLO funciona si la submission tiene un valor inválido (`-1`)
 que fuerza el error de scoring. Subir un CSV completo gasta una submission del cupo diario sin

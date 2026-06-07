@@ -17,7 +17,9 @@ import numpy as np
 import pandas as pd
 from kaggle.api.kaggle_api_extended import KaggleApi
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE  = os.path.dirname(os.path.abspath(__file__))
+INTER = os.path.join(HERE, 'outputs', '_intermediate')   # transient sweep/probe artifacts
+os.makedirs(INTER, exist_ok=True)
 PY   = os.path.join(HERE, '..', '.venv', 'Scripts', 'python.exe')
 COMP = 'robot-predictive-maintenance-season-2026'
 EXP  = 'maxcfg'
@@ -33,8 +35,8 @@ def gen_full(seed):
                     '--seed', str(seed), '--tag', 'swp'],
                    check=True, cwd=HERE, env=env,
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    full = os.path.join(HERE, 'sub_swp_maxcfg_full.csv')
-    dst  = os.path.join(HERE, f'pred_s{seed}_full.csv')
+    full = os.path.join(HERE, 'sub_swp_maxcfg_full.csv')   # written by exp_Z to the harness dir
+    dst  = os.path.join(INTER, f'pred_s{seed}_full.csv')
     shutil.copy(full, dst)
     return dst
 
@@ -80,7 +82,7 @@ def probe_motor_set(full_csv, excl_motor, desc):
     """Make a -1 copy excluding excl_motor, submit, return per-motor F1 dict."""
     df = pd.read_csv(full_csv)
     df[f'data_motor_{excl_motor}_label'] = -1
-    tmp = os.path.join(HERE, f'_probe_x{excl_motor}.csv')
+    tmp = os.path.join(INTER, f'_probe_x{excl_motor}.csv')
     df.to_csv(tmp, index=False)
     return parse_perm(submit_read(tmp, desc))
 
@@ -106,9 +108,9 @@ for m in range(1, 7):
 assembled_macro = np.mean([results[best[m]][m] for m in range(1, 7)])
 print(f"\n==> Assembled macro (theoretical): {assembled_macro:.4f}")
 
-base = pd.read_csv(os.path.join(HERE, f'pred_s{SEEDS[0]}_full.csv'))
+base = pd.read_csv(os.path.join(INTER, f'pred_s{SEEDS[0]}_full.csv'))
 for m in range(1, 7):
-    src = pd.read_csv(os.path.join(HERE, f'pred_s{best[m]}_full.csv'))
+    src = pd.read_csv(os.path.join(INTER, f'pred_s{best[m]}_full.csv'))
     base[f'data_motor_{m}_label'] = src[f'data_motor_{m}_label'].values
-base.to_csv(os.path.join(HERE, 'sub_Z_assembled_full.csv'), index=False)
+base.to_csv(os.path.join(HERE, 'outputs', 'Z', 'sub_Z_assembled_full.csv'), index=False)
 print("Saved sub_Z_assembled_full.csv (complete; use -1 copies to verify, never submit as-is).")
