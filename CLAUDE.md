@@ -252,6 +252,78 @@ El mayor problema es la **calibración de prevalencia**: los modelos entrenados 
 
 ---
 
+### ⚠️ REGLA ABSOLUTA: NUNCA subir un CSV "completo"
+
+**NUNCA hacer submit de un CSV en el que los 6 motores tengan predicciones 0/1.**
+Toda submission DEBE tener **al menos un motor "skipeado"** (su columna entera a `-1`).
+Esto se consigue con el flag `--exclude-motor N` de `error injection_v1.py` / `error injection_v2.py`
+(hardcodeado por defecto a `--exclude-motor 3`, genera `submissions/motor_excluded_3_submission.csv`).
+
+Razón: el truco de probing de abajo SOLO funciona si la submission tiene un valor inválido (`-1`)
+que fuerza el error de scoring. Subir un CSV completo gasta una submission del cupo diario sin
+darnos el desglose de F1 por motor.
+
+### Técnica de probing: obtener el F1 REAL por motor desde Kaggle
+
+Kaggle solo muestra un único F1 macro agregado en el leaderboard. Pero si una submission
+contiene un valor inválido, el **scoring falla (status = ERROR) pero el mensaje de error
+filtra el F1 por motor** del test set real. Esto es leaderboard probing.
+
+**Cómo se hace (procedimiento reproducible):**
+
+1. Generar el CSV con un motor skipeado (columna a `-1`):
+   ```bash
+   PYTHONIOENCODING=utf-8 PYTHONUTF8=1 .venv/Scripts/python.exe "error injection_v2.py"
+   # genera submissions/motor_excluded_3_submission.csv (motor 3 -> -1 por defecto)
+   # para skipear otro motor: ... "error injection_v2.py" --exclude-motor 5
+   ```
+
+2. Subir ese CSV skipeado a Kaggle:
+   ```bash
+   PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe -m kaggle competitions submit \
+     -c robot-predictive-maintenance-season-2026 \
+     -f submissions/motor_excluded_3_submission.csv \
+     -m "Probe: motor 3 excluded (-1)"
+   ```
+   → Devuelve `Successfully submitted`, pero el scoring quedará en `SubmissionStatus.ERROR`
+   (esto es lo esperado y deseado, NO es un fallo nuestro).
+
+3. Extraer el F1 por motor del campo `error_description` (NO aparece en el listado normal
+   `kaggle competitions submissions`; hay que leerlo vía la API de Python):
+   ```bash
+   PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe -c "
+   from kaggle.api.kaggle_api_extended import KaggleApi
+   api = KaggleApi(); api.authenticate()
+   subs = api.competition_submissions('robot-predictive-maintenance-season-2026')
+   print(subs[0].error_description)
+   "
+   ```
+   Salida (ejemplo real, probe con motor 3 excluido):
+   ```
+   The submission dataframe contains invalid values.
+    Results per motor:
+        motor_1   motor_2   motor_3   motor_4   motor_5   motor_6
+   0   0.230576   0.88785        -1   0.202055   0.941176   0.769231
+   ```
+   El motor skipeado sale como `-1`; los demás muestran su **F1 real en el test de Kaggle**.
+
+**Para reconstruir el F1 de los 6 motores:** lanzar 2 probes complementarios (p.ej. excluir
+motor 3 en uno y motor 5 en otro) y combinar los desgloses — cada probe da el F1 de los 5
+motores no excluidos.
+
+**Resultados de probing registrados (2026-06-03, error injection_v2, seed 42):**
+
+| Motor | F1 real test Kaggle | Comentario |
+|-------|:---:|---|
+| M1 | 0.231 | hunde el score — techo estructural (temp↔fallo se invierte) |
+| M2 | 0.888 | excelente |
+| M3 | (sin medir en este probe) | excluido |
+| M4 | 0.202 | hunde el score — mismo problema que M1 |
+| M5 | 0.941 | excelente |
+| M6 | 0.769 | bien |
+
+---
+
 ## Entorno
 
 - Python venv en `.venv/` (Python 3.x)

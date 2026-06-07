@@ -1,0 +1,183 @@
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\kaggle_data_challenge\utility.py:582: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  combined_df.loc[:, 'test_condition'] = test_id
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:684: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['raw_desc']        = df['test_condition'].map(desc_map).fillna('')
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:685: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_transfer']   = df['raw_desc'].str.contains('transfer').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:686: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_not_moving'] = df['raw_desc'].str.contains('not moving').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:687: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_turn_motor'] = df['raw_desc'].str.contains('turn motor').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:688: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_chute_cube'] = df['raw_desc'].str.contains('chute cube').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:684: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['raw_desc']        = df['test_condition'].map(desc_map).fillna('')
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:685: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_transfer']   = df['raw_desc'].str.contains('transfer').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:686: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_not_moving'] = df['raw_desc'].str.contains('not moving').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:687: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_turn_motor'] = df['raw_desc'].str.contains('turn motor').astype(int)
+C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\exp_B.py:688: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['desc_chute_cube'] = df['raw_desc'].str.contains('chute cube').astype(int)
+============================================================
+  EXPERIMENT: loo   (exclude motor 3, seed 42)
+============================================================
+
+[1/4] Loading training data...
+  Base: 39,309 rows, 116 cols
+  Combined: 99,407 rows
+
+[2/4] Loading test data...
+  Test: 14,157 rows
+
+[3/4] Movement descriptions...
+
+[4/4] Training per motor...
+  M1 [histgb] x1  LOO F1=0.157  thr=0.5 close=True  (pos 3,421/89,609)
+  M2 [histgb] x7  LOO F1=0.187  thr=0.2 close=True  (pos 2,356/88,581)
+  M3 [histgb] x1  LOO F1=0.198  thr=0.4 close=True  (pos 4,270/108,625)
+  M4 [histgb] x7  LOO F1=0.136  thr=0.3 close=True  (pos 3,133/94,085)
+  M5 [histgb] x7  LOO F1=0.150  thr=0.3 close=False  (pos 5,272/119,119)
+  M6 [histgb] x1  LOO F1=0.437  thr=0.4 close=True  (pos 3,292/83,879)
+
+  Saved: C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\sub_B_loo.csv   (275s)
+  % fault per motor (test):
+    M1:    14 faults
+    M2:   314 faults
+    M3:     0 faults  <- EXCLUDED
+    M4:   156 faults
+    M5:   127 faults
+    M6:   161 faults

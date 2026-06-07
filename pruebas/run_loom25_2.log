@@ -1,0 +1,29 @@
+============================================================
+  EXPERIMENT: loo_m25   (exclude motor 3, seed 2)
+============================================================
+
+[1/4] Loading training data...
+  Base: 39,309 rows, 116 cols
+  Combined: 99,407 rows
+
+[2/4] Loading test data...
+  Test: 14,157 rows
+
+[3/4] Movement descriptions...
+
+[4/4] Training per motor...
+  M1 [histgb] x1  val F1=0.450  thr=0.05 close=False  (pos 3,271/93,006)
+  M2 [histgb] x7  LOO F1=0.203  thr=0.4 close=True  (pos 2,474/99,721)
+  M3 [histgb] x1  val F1=0.956  thr=0.6 close=False  (pos 4,702/127,077)
+  M4 [histgb] x7  val F1=0.711  thr=0.05 close=True  (pos 3,295/88,289)
+  M5 [histgb] x7  LOO F1=0.342  thr=0.4 close=True  (pos 5,480/129,718)
+  M6 [histgb] x1  val F1=0.852  thr=0.4 close=True  (pos 3,348/86,296)
+
+  Saved: C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\sub_B_loo_m25.csv   (112s)
+  % fault per motor (test):
+    M1: 1,000 faults
+    M2:   298 faults
+    M3:     0 faults  <- EXCLUDED
+    M4:   463 faults
+    M5:    95 faults
+    M6:   182 faults

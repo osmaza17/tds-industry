@@ -1,0 +1,29 @@
+============================================================
+  EXPERIMENT: best   (exclude motor 3, seed 3)
+============================================================
+
+[1/4] Loading training data...
+  Base: 39,309 rows, 116 cols
+  Combined: 99,407 rows
+
+[2/4] Loading test data...
+  Test: 14,157 rows
+
+[3/4] Movement descriptions...
+
+[4/4] Training per motor...
+  M1 [histgb] x1  val F1=0.458  thr=0.05 close=False  (pos 3,514/87,688)
+  M2 [histgb] x7  val F1=0.522  thr=0.05 close=True  (pos 2,542/89,553)
+  M3 [histgb] x1  val F1=0.773  thr=0.8 close=False  (pos 4,835/120,946)
+  M4 [histgb] x7  val F1=0.734  thr=0.05 close=True  (pos 2,908/91,994)
+  M5 [histgb] x7  val F1=0.442  thr=0.4 close=True  (pos 5,128/110,237)
+  M6 [histgb] x1  val F1=0.925  thr=0.3 close=True  (pos 3,251/87,540)
+
+  Saved: C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\sub_B_best.csv   (122s)
+  % fault per motor (test):
+    M1: 1,877 faults
+    M2: 1,238 faults
+    M3:     0 faults  <- EXCLUDED
+    M4:   249 faults
+    M5:    90 faults
+    M6:   186 faults

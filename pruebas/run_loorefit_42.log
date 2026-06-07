@@ -1,0 +1,29 @@
+============================================================
+  EXPERIMENT: loo_refit   (exclude motor 3, seed 42)
+============================================================
+
+[1/4] Loading training data...
+  Base: 39,309 rows, 116 cols
+  Combined: 99,407 rows
+
+[2/4] Loading test data...
+  Test: 14,157 rows
+
+[3/4] Movement descriptions...
+
+[4/4] Training per motor...
+  M1 [histgb] x1  LOO F1=0.259  thr=0.6 close=True  (pos 3,421/89,609)
+  M2 [histgb] x7  LOO F1=0.222  thr=0.4 close=True  (pos 2,356/88,581)
+  M3 [histgb] x1  LOO F1=0.319  thr=0.5 close=True  (pos 4,270/108,625)
+  M4 [histgb] x7  LOO F1=0.177  thr=0.2 close=True  (pos 3,133/94,085)
+  M5 [histgb] x7  LOO F1=0.233  thr=0.3 close=False  (pos 5,272/119,119)
+  M6 [histgb] x1  LOO F1=0.390  thr=0.4 close=True  (pos 3,292/83,879)
+
+  Saved: C:\Users\oscar\Desktop\TDS INDUSTRY\pruebas\sub_B_loo_refit.csv   (266s)
+  % fault per motor (test):
+    M1:     0 faults
+    M2:   966 faults
+    M3:     0 faults  <- EXCLUDED
+    M4:   168 faults
+    M5:   101 faults
+    M6:   146 faults

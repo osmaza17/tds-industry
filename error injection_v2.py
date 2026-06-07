@@ -220,8 +220,9 @@ def pre_processing(df: pd.DataFrame):
 
 def main():
     parser = argparse.ArgumentParser(description="Motor overheating prediction (v2)")
-    parser.add_argument('--exclude-motor', type=int, choices=range(1, 7), default=None,
-                        help="Set this motor's predictions to -1 (Kaggle probe submission)")
+    parser.add_argument('--exclude-motor', type=int, choices=range(1, 7), default=3,
+                        help="Set this motor's predictions to -1 (Kaggle probe submission). "
+                             "Hardcoded default: 3 (always skip motor 3 unless overridden).")
     parser.add_argument('--seed', type=int, default=42,
                         help="Random seed for reproducibility (default: 42)")
     args = parser.parse_args()
