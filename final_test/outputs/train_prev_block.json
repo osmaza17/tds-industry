@@ -1,0 +1,74 @@
+{
+  "1": {
+    "prevalence": 0.02538050640296961,
+    "champ_threshold": 0.8,
+    "champ_closing": false,
+    "val_f1": 0.8717948717948718,
+    "best_params": {
+      "learning_rate": 0.02,
+      "max_iter": 100,
+      "max_depth": 5,
+      "min_samples_leaf": 600
+    }
+  },
+  "2": {
+    "prevalence": 0.08144295673342923,
+    "champ_threshold": 0.05,
+    "champ_closing": true,
+    "val_f1": 0.43351404632824053,
+    "best_params": {
+      "learning_rate": 0.02,
+      "max_iter": 100,
+      "max_depth": 5,
+      "min_samples_leaf": 600
+    }
+  },
+  "3": {
+    "prevalence": 0.0038226684237528544,
+    "champ_threshold": 0.6,
+    "champ_closing": false,
+    "val_f1": 0.9559748427672956,
+    "best_params": {
+      "learning_rate": 0.02,
+      "max_iter": 100,
+      "max_depth": 3,
+      "min_samples_leaf": 600
+    }
+  },
+  "4": {
+    "prevalence": 0.08681481183417666,
+    "champ_threshold": 0.05,
+    "champ_closing": true,
+    "val_f1": 0.6842866935790997,
+    "best_params": {
+      "learning_rate": 0.02,
+      "max_iter": 100,
+      "max_depth": 3,
+      "min_samples_leaf": 200
+    }
+  },
+  "5": {
+    "prevalence": 0.015351031617491726,
+    "champ_threshold": 0.5,
+    "champ_closing": true,
+    "val_f1": 0.7580645161290323,
+    "best_params": {
+      "learning_rate": 0.02,
+      "max_iter": 150,
+      "max_depth": 3,
+      "min_samples_leaf": 600
+    }
+  },
+  "6": {
+    "prevalence": 0.023137203617451488,
+    "champ_threshold": 0.5,
+    "champ_closing": true,
+    "val_f1": 0.8700834326579261,
+    "best_params": {
+      "learning_rate": 0.02,
+      "max_iter": 150,
+      "max_depth": 4,
+      "min_samples_leaf": 600
+    }
+  }
+}
