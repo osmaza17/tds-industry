@@ -1,0 +1,28 @@
+# Dependencias para ejecutar el repo tds-industry
+# Crear venv:   python -m venv venv
+# Activar:      .\venv\Scripts\Activate.ps1   (Windows PowerShell)
+# Instalar:     pip install -r requirements.txt
+
+# --- Núcleo de datos / cálculo ---
+numpy
+pandas
+scipy
+
+# --- Machine learning ---
+scikit-learn
+xgboost
+imbalanced-learn
+
+# --- Visualización ---
+matplotlib
+seaborn
+
+# --- Utilidades ---
+tqdm
+
+# --- Kaggle API (scripts de submission/probing en pruebas/) ---
+kaggle
+
+# --- Notebooks (.ipynb en TDs/, legacy/, help_from_martin/) ---
+jupyter
+ipykernel
